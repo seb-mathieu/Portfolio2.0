@@ -342,6 +342,10 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.center {
+  margin-right:auto;
+}
+
 section {
   overflow: hidden;
   position: absolute;
@@ -510,6 +514,27 @@ section .container {
 
 .skills .progress-bar-wrap {
   background: rgba(255, 255, 255, 0.2);
+}
+
+.skills .progress-bar-debutant {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #6eff7a;
+}
+
+.skills .progress-bar-inter {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #ffeb69;
+}
+
+.skills .progress-bar-advance {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #ff6060;
 }
 
 .skills .progress-bar {
@@ -934,7 +959,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(219, 219, 219, 0.8);
+  background: #596FB7;
   position: fixed;
   left: 0;
   right: 0;
@@ -994,7 +1019,7 @@ section .container {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #92a3db;
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
